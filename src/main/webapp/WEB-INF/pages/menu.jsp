@@ -11,6 +11,7 @@
                     <li class="nav-item"><a ${pageContext.request.requestURI.substring(pageContext.request.requestURI.lastIndexOf("/"))
                             eq '/about.jsp' ? ' active' : ''} aria-current="page" href="${pageContext.request.contextPath}/about.jsp">About</a></li>
                     <li class="nav-item"> <a class="nav-link" href="#">Link</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="${pageContext.request.contextPath}/Cars">Cars</a></li>
                     <li class="nav-item"> <a class="nav-link disabled" aria-disabled="true">Disabled</a> </li>
                 </ul>
                 <ul class="navbar-nav">
@@ -24,13 +25,3 @@
     </nav>
 </header>
 
-<footer class="footer mt-auto py-3 bg-light fixed-bottom">
-    <p class="float-end">
-        <a href="#">Back to top</a>
-    </p>
-    <p>&copy; 2027 Răducu Maria-Emilia &middot;
-        <a href="#">Privacy</a>
-        &middot;
-        <a href="#">Terms</a>
-    </p>
-</footer>
