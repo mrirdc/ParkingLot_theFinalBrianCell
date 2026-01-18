@@ -55,6 +55,7 @@ public class User {
     }
 
     @OneToMany(mappedBy = "owner", orphanRemoval = true)
+
     private List<Car> cars = new ArrayList<>();
 
     public List<Car> getCars() {
