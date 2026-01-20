@@ -54,7 +54,7 @@ public class User {
         this.password = password;
     }
 
-    @OneToMany(mappedBy = "owner", orphanRemoval = true)
+    @OneToMany(mappedBy = "owner", cascade = CascadeType.PERSIST)
 
     private List<Car> cars = new ArrayList<>();
 

@@ -10,7 +10,7 @@ import jakarta.servlet.annotation.*;
 import java.io.IOException;
 import java.util.List;
 
-@WebServlet(name = "Cars", value = "/Cars")
+@WebServlet(name = "Users", value = "/Users")
 public class Users extends HttpServlet {
 
     @Inject
