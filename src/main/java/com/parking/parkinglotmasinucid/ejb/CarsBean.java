@@ -5,8 +5,8 @@ import jakarta.ejb.Stateless;
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
 import jakarta.persistence.TypedQuery;
-import org.example.parkinglot.entities.Car;
-import org.example.parkinglot.entities.User;
+import com.parking.parkinglotmasinucid.entities.Car;
+import com.parking.parkinglotmasinucid.entities.User;
 
 import java.util.ArrayList;
 import java.util.Collection;

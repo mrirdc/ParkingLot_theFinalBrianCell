@@ -1,6 +1,6 @@
 package com.parking.parkinglotmasinucid.common;
 
-import org.example.parkinglot.entities.Car;
+import com.parking.parkinglotmasinucid.entities.Car;
 
 import java.util.ArrayList;
 import java.util.List;
